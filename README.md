@@ -1,8 +1,8 @@
-# Espruino MQTT SAMPLE
+# Espruino MQTT Example
 
-sample implementation of MQTT publisher on Espruino.
+A sample implementation of MQTT publisher on Espruino.
 
-# GET STARTED
+# Get Started Guide 
 
 #### requirements
 
@@ -27,7 +27,7 @@ node broker.js
 node subscriber.js
 ```
 
-Connect the CC3000 WiFi module and DS18B20 Temperature to your Espruino as follows [here](http://qiita.com/rockymanobi/items/83cc39a4a75ea65747e3)
+Connect the CC3000 WiFi module and DS18B20 Temperature to your Espruino as follows [here](http://qiita.com/rockymanobi/items/83cc39a4a75ea65747e3).
 
-Run `espruino.js` on WebIDE. Everytime you press the BTN1, the temperature will be sent to subscriber by MQTT.
+Run `espruino.js` on Espruino WebIDE. Then, everytime you press the BTN1, the temperature will be sent to subscriber by MQTT.
 
