@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var client = mqtt.createClient( 61613, 'localhost');
+var client = mqtt.createClient( 1883, 'localhost');
 
 client.on('connect', function() {
   console.log('Connected!');

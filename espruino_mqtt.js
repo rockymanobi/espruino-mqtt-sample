@@ -1,8 +1,8 @@
 var config = {
-  wifiSSID: 'BCW710J-83EEA-G',
-  wifiKey: 'd5433a48fe448',
-  mqttHost: '192.168.0.10',
-  mqttPort: '61613',
+  wifiSSID: 'ssid',
+  wifiKey: 'password',
+  mqttHost: '192.168.xxx.xxx',
+  mqttPort: '1883',
 };
 
 function mtStr(s) {

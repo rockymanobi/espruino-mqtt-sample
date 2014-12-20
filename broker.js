@@ -1,5 +1,5 @@
 var mqtt = require('mqtt');
-var port = 61613;
+var port = 1883;
 
 mqtt.createServer(function(client) {
   var _this = this;
