@@ -1,0 +1,14 @@
+{
+  "name": "espruino-mqtt-sample",
+  "version": "0.0.1",
+  "description": "sample implementation of mqtt publisher(on Espruino) with broker and subscriber",
+  "main": "broker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rocky-manobi",
+  "license": "Apache",
+  "dependencies" : {
+    "mqtt" : "latest"
+  }
+}
