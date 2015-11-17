@@ -1,7 +1,7 @@
 var mqtt = require('mqtt');
 var port = 1883;
 
-mqtt.createServer(function(client) {
+mqtt.MqttServer(function(client) {
   var _this = this;
 
   if (!_this.clients) _this.clients = {};
