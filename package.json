@@ -9,6 +9,6 @@
   "author": "rocky-manobi",
   "license": "Apache",
   "dependencies" : {
-    "mqtt" : "latest"
+    "mqtt" : "~1.5.0"
   }
 }
